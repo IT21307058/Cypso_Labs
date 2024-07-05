@@ -18,3 +18,7 @@ PUT /tasks/{id}: Update a task by its ID.
 DELETE /tasks/{id}: Delete a task by its ID.
 
 ### Swagger/OpenAPI documentation for the API = http://localhost:8080/swagger-ui/index.html#/task-controller/createTask
+
+## H2 in-memory database
+![image](https://github.com/IT21307058/Cypso_Labs/assets/99331889/314c94fb-6d2d-4ac6-883f-d89ff5e568be)
+
