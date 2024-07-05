@@ -16,20 +16,24 @@ public class TaskService {
     @Autowired
     private TaskRepository taskRepository;
 
+    //create task
     public Task createTask(Task task) {
         return taskRepository.save(task);
     }
 
+    //get all task
     public Page<Task> getAllTasks(Pageable pageable) {
 
         return taskRepository.findAll(pageable);
     }
 
+    //get one specific task
     public Optional<Task> getTaskById(Long id) {
 
         return taskRepository.findById(id);
     }
 
+    //update existing task
     public Task updateTask(Long id, Task taskDetails) {
         Task task = taskRepository.findById(id).orElseThrow(() -> new RuntimeException("Task not found"));
         task.setTitle(taskDetails.getTitle());
@@ -38,6 +42,7 @@ public class TaskService {
         return taskRepository.save(task);
     }
 
+    // delete task
     public void deleteTask(Long id) {
         Task task = taskRepository.findById(id).orElseThrow(() -> new RuntimeException("Task not found"));
         taskRepository.delete(task);
