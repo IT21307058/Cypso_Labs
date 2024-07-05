@@ -21,10 +21,12 @@ public class TaskService {
     }
 
     public Page<Task> getAllTasks(Pageable pageable) {
+
         return taskRepository.findAll(pageable);
     }
 
     public Optional<Task> getTaskById(Long id) {
+
         return taskRepository.findById(id);
     }
 

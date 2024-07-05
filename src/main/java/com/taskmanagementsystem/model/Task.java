@@ -20,8 +20,10 @@ public class Task {
     @NotBlank(message = "Title is mandatory")
     private String title;
 
+    @NotBlank(message = "Description is mandatory")
     private String description;
 
+    @NotBlank(message = "Status is mandatory")
     private String status;
 
 }
