@@ -9,13 +9,14 @@
 2. Navigate to the project directory.
 3. Run the application
    `./mvnw spring-boot:run`
+4. Run Unit & integration tests
 
 ## API Endpoints
-POST /tasks: Create a new task.
-GET /tasks: Retrieve all tasks.
-GET /tasks/{id}: Retrieve a task by its ID.
-PUT /tasks/{id}: Update a task by its ID.
-DELETE /tasks/{id}: Delete a task by its ID.
+1. POST /tasks: Create a new task.
+2. GET /tasks: Retrieve all tasks.
+3. GET /tasks/{id}: Retrieve a task by its ID.
+4. PUT /tasks/{id}: Update a task by its ID.
+5. DELETE /tasks/{id}: Delete a task by its ID.
 
 ### Swagger/OpenAPI documentation for the API = http://localhost:8080/swagger-ui/index.html#/task-controller/createTask
 
