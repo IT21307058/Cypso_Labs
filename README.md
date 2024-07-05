@@ -23,3 +23,7 @@
 ## H2 in-memory database
 ![image](https://github.com/IT21307058/Cypso_Labs/assets/99331889/314c94fb-6d2d-4ac6-883f-d89ff5e568be)
 
+## Implement pagination for the GET /tasks endpoint.
+![image](https://github.com/IT21307058/Cypso_Labs/assets/99331889/06ca7e62-654f-4f16-989f-4a6540deaa69)
+
+
