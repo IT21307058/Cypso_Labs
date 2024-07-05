@@ -5,11 +5,11 @@
 
 ## Running the Application
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Run the application
+1. Clone the repository. `git clone 'https://github.com/IT21307058/Cypso_Labs.git'`
+3. Navigate to the project directory. `cd project-name`
+4. Run the application
    `./mvnw spring-boot:run`
-4. Run Unit & integration tests
+5. Run Unit & integration tests
 
 ## API Endpoints
 1. POST /tasks: Create a new task.
